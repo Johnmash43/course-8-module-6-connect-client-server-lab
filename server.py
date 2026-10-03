@@ -1,5 +1,5 @@
-from flask import Flask, jsonify, request
-from flask_cors import CORS
+from flask import Flask, jsonify, request  # type: ignore[reportMissingImports]
+from flask_cors import CORS  # type: ignore[reportMissingImports]
 
 from data import events, next_event_id, find_event_by_id
 
